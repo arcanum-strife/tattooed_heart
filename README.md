@@ -1,3 +1,6 @@
 # CS3-Repository
 
-first ever github repository. good luck for me sa cs3.
+CN# 14 - Hyrall Adar Sevilla
+9 - Arayat
+All FA's and other projects are listed here except FA 3 and 4.
+
