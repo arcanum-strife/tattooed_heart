@@ -1,0 +1,13 @@
+class Hero :
+  def __init__(self, name, hp):
+    self.name = name
+    self.hp = hp
+  def damage(self, amount):
+    self.hp = self.hp - amount
+
+arthur = Hero("Arthur", 100)
+morgana = Hero("Morgana", 100)
+
+arthur.damage(10)
+print(f"{arthur.name}'s HP is at :{arthur.hp} HP")
+print(f"{morgana.name}'s HP is at :{morgana.hp} HP")
