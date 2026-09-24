@@ -1,0 +1,55 @@
+print("Welcome to Metrobank")
+print("Ready to open an account")
+acc_name = input("Account name : ")
+acc_num = input("Account number :")
+acc_type = input("Savings or Checking? :")
+THE_account = print(acc_name, acc_num, acc_type)
+
+class bank :
+    def __init__ (self, name, accounts):
+        self.name = name
+        self.accounts = accounts
+        accounts = input(list(accounts))
+        
+class account :
+    def __init__ (self, name, number, balance):
+        self.name = accname
+        self.number = accnumber
+        self.type = acc_type
+        self.balance = accbalance
+        accbalance = 0
+    def interest (self, amount):
+        self.amount = amount
+        amount = accbalance
+        interest = 0.05
+        
+if acc_type == "Savings":
+    print("Account created.")
+elif acc_type == "Checking":
+    print("Account created.")
+        
+print("Ready to deposit an amount")
+dep = input("Enter amount to deposit : ")
+print(f' You are about to deposit an amount of P {dep}')
+sec = input("Enter account number")
+if sec = acc_num:
+    print("Deposit sucessful.")
+    acc.balance = acc.balance + sec
+
+print("Adding interest to all savings accounts")
+print(f' Interest added to account {acc_num')
+print(THE_account)
+
+print("Ready to withdraw an account)
+wit = input("Enter an amount to withdraw : ")
+print(f' You are about to withdraw an amount of p {wit})
+print(sec)
+if sec = acc_num:
+    print("Withdraw sucessful.")
+    acc.balance = acc.balance - sec
+
+print("Ready to close an account")
+close = input("Enter account number : ")
+if close == acc_num:
+    print(f"Account {acc_num} closed.")
+    print("Account closed.")
